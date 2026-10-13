@@ -83,6 +83,12 @@ module/
 
 To build the release zip, zip the *contents* of `module/` so that `module.json` is at the top level.
 
+## Make your own character
+
+Want to turn another character into a playable hero? See
+**[How to make your own character module](docs/making-a-character-module.md)**. It walks through how
+Jubilee was built, and the rules that will save you hours.
+
 ## Credits
 
 Made by Jazneo, with help from Claude. Marvel Heroes is © Marvel and Gazillion Entertainment. This is a fan

@@ -8,6 +8,12 @@ It comes as a **module** for
 [MH Launcher](https://github.com/Jazzneo/marvel-heroes-steamdeck-launcher) (1.7.0 or newer). The launcher
 puts her into your game and server files, and takes her out again cleanly.
 
+## Video
+
+[![Playable Jubilee in Marvel Heroes Omega (watch on YouTube)](https://img.youtube.com/vi/4dmI_d2hD64/hqdefault.jpg)](https://www.youtube.com/watch?v=4dmI_d2hD64&t=18s)
+
+Click the picture to watch her in action on YouTube.
+
 ## What you get
 
 - **Powers up to level 30.** There are two power tabs, with Show Starter, Roman Rockets, Superglob,

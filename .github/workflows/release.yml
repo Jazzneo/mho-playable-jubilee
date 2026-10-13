@@ -1,8 +1,9 @@
 name: Release
 
-# Push a tag like v0.6.4 (matching "version" in module/module.json) to publish a release
-# with the module zip that MH Launcher installs.
+# Publishes the module zip that MH Launcher installs, as release v<version from module/module.json>.
+# Start it from the Actions tab (Release -> Run workflow), or push a tag like v0.6.4.
 on:
+  workflow_dispatch:
   push:
     tags: ["v*"]
 
@@ -17,7 +18,7 @@ jobs:
       - name: Build the module zip
         run: |
           ver=$(python3 -c "import json;print(json.load(open('module/module.json'))['version'])")
-          if [ "v$ver" != "$GITHUB_REF_NAME" ]; then
+          if [ "$GITHUB_REF_TYPE" = tag ] && [ "v$ver" != "$GITHUB_REF_NAME" ]; then
             echo "Tag $GITHUB_REF_NAME doesn't match module.json version $ver"; exit 1
           fi
           (cd module && zip -qr -X "../Playable_Jubilee_$ver.zip" .)
@@ -28,4 +29,4 @@ jobs:
       - name: Publish the release
         env:
           GH_TOKEN: ${{ github.token }}
-        run: gh release create "$GITHUB_REF_NAME" "Playable_Jubilee_$VER.zip" --title "Playable Jubilee $VER" --notes-file notes.md
+        run: gh release create "v$VER" "Playable_Jubilee_$VER.zip" --target "$GITHUB_SHA" --title "Playable Jubilee $VER" --notes-file notes.md

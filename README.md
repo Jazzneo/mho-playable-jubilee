@@ -85,5 +85,6 @@ project for private servers and isn't affiliated with Marvel, Disney or Gazillio
 ## Making a new release
 
 1. Change `module/`, raise `"version"` in `module/module.json`, and add a section to `CHANGELOG.md`.
-2. Commit, then push a tag that matches the version, for example `git tag v0.6.4 && git push origin v0.6.4`.
-3. GitHub Actions builds `Playable_Jubilee_<version>.zip` and publishes it on the Releases page.
+2. Commit and push.
+3. On GitHub open **Actions → Release → Run workflow**. Or push a tag that matches the version, such as `v0.6.4`.
+4. GitHub Actions builds `Playable_Jubilee_<version>.zip` and publishes it on the Releases page as `v<version>`.

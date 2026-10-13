@@ -1,0 +1,49 @@
+{
+  "format": 1,
+  "id": "playable-jubilee",
+  "name": "Playable Jubilee",
+  "version": "0.6.3",
+  "author": "Jazneo",
+  "description": "Jubilee as a full playable hero: her team-up model and powers turned into a hero kit (12 powers up to level 30, Grand Finale ultimate), Firework Skate dodge (4 charges), Rollerblades travel power, swap-in/out skating, 15 talents, 2 traits, and her own gear set with new icons. Team-up Jubilee shares her model and only appears after a zone change.",
+  "game": "Marvel Heroes Omega 1.52.0.1700",
+  "files": [
+    "UnrealEngine3/MarvelGame/CookedPCConsole/ICO__MarvelUIIcons_HD_SF.upk",
+    "UnrealEngine3/MarvelGame/CookedPCConsole/UC__MarvelTeamUp_Jubilee_SF.upk",
+    "UnrealEngine3/MarvelGame/CookedPCConsole/UC__PowerAvatarSwapIn_SF.upk",
+    "UnrealEngine3/MarvelGame/CookedPCConsole/UC__PowerAvatarSwapOut_SF.upk",
+    "UnrealEngine3/MarvelGame/CookedPCConsole/UC__PowerElektra_Kick2_SF.upk",
+    "UnrealEngine3/MarvelGame/CookedPCConsole/UC__PowerElektra_Kick_SF.upk",
+    "UnrealEngine3/MarvelGame/CookedPCConsole/UC__PowerRogue_JubileeBoom_SF.upk"
+  ],
+  "textures": [
+    {
+      "package": "ICO__MarvelUIIcons_SF.upk",
+      "texture": "Armor_Wolverine_Gloves",
+      "file": "textures/Armor_Wolverine_Gloves.dxt5"
+    },
+    {
+      "package": "ICO__MarvelUIIcons_SF.upk",
+      "texture": "Item_SMCreditItem",
+      "file": "textures/Item_SMCreditItem.dxt5"
+    },
+    {
+      "package": "ICO__MarvelUIIcons_SF.upk",
+      "texture": "Item_StarkTechUpgrade",
+      "file": "textures/Item_StarkTechUpgrade.dxt5"
+    },
+    {
+      "package": "ICO__MarvelUIIcons_SF.upk",
+      "texture": "Item_Art329",
+      "file": "textures/Item_Art329.dxt5"
+    },
+    {
+      "package": "ICO__MarvelUIIcons_SF.upk",
+      "texture": "Armor_Deadpool_Gloves",
+      "file": "textures/Armor_Deadpool_Gloves.dxt5"
+    }
+  ],
+  "calligraphy": "calligraphy.json",
+  "strings": {
+    "eng": "strings/eng.json"
+  }
+}

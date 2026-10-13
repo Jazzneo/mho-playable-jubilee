@@ -1,0 +1,967 @@
+{
+ "prototypes": [
+  {
+   "path": "Powers/Player/Jubilee/DefaultShowStarter.prototype",
+   "id": "6def25ae01fe1477",
+   "guid": "8c942654abe7c61a",
+   "blueprint": "6f362cca5091107b",
+   "flags": 2
+  },
+  {
+   "path": "Powers/Player/Jubilee/HomingMissiles.prototype",
+   "id": "f54022b6b26912b7",
+   "guid": "03ef69cca3112e28",
+   "blueprint": "6f362cca5091107b",
+   "flags": 2
+  },
+  {
+   "path": "Powers/Player/Jubilee/TripleWave.prototype",
+   "id": "078c3ac46af2110f",
+   "guid": "1fedf6e3a674a2bc",
+   "blueprint": "5c941affe5410d85",
+   "flags": 2
+  },
+  {
+   "path": "Powers/Player/Jubilee/Hotspot.prototype",
+   "id": "48dd10d539a70fdd",
+   "guid": "0ae02e144ab4411d",
+   "blueprint": "d0fc4c6241811024",
+   "flags": 2
+  },
+  {
+   "path": "Powers/Player/Jubilee/Boom.prototype",
+   "id": "3ddec0d009f30e79",
+   "guid": "5a6217dafb6d494a",
+   "blueprint": "44c6a3ad4c4515e4",
+   "flags": 2
+  },
+  {
+   "path": "Powers/Player/Jubilee/Superglob.prototype",
+   "id": "e57d847959c2109f",
+   "guid": "2ce59cd513461eba",
+   "blueprint": "9e9b0a69e5df13eb",
+   "flags": 2
+  },
+  {
+   "path": "Powers/Player/Jubilee/GrandFinale.prototype",
+   "id": "f49f2d2979061147",
+   "guid": "089ed13e8957be59",
+   "blueprint": "9e9b0a69e5df13eb",
+   "flags": 2
+  },
+  {
+   "path": "Entity/Items/Costumes/Prototypes/Jubilee/TeamUp.prototype",
+   "id": "153a23379b8b1722",
+   "guid": "3942e43fa867731c",
+   "blueprint": "958700763a330fd0",
+   "flags": 2
+  },
+  {
+   "path": "Entity/Characters/Avatars/Shipping/Jubilee.prototype",
+   "id": "cfcb9e7924d214de",
+   "guid": "7972da75af4cfcde",
+   "blueprint": "09fa8bf5673e10cc",
+   "flags": 2
+  },
+  {
+   "path": "Localization/Translations/Powers/Jubilee/FireworkSkate.prototype",
+   "id": "ae48114d4c721a19",
+   "guid": "a5fde2e57b93a7d7",
+   "blueprint": "0e3331e0f8e52b95",
+   "flags": 2
+  },
+  {
+   "path": "Powers/Player/Jubilee/FireworkSkate.prototype",
+   "id": "0e692eeba007124d",
+   "guid": "b5cf3f4a06982624",
+   "blueprint": "71c28bd022cb151f",
+   "flags": 2
+  },
+  {
+   "path": "Localization/Translations/Powers/Jubilee/TalentShowstopper.prototype",
+   "id": "d21022cbbb581bee",
+   "guid": "562ab68378533cec",
+   "blueprint": "0e3331e0f8e52b95",
+   "flags": 2
+  },
+  {
+   "path": "Powers/Player/Jubilee/Talents/Showstopper.prototype",
+   "id": "23c5ca94145514c3",
+   "guid": "6012faae8eedd7f9",
+   "blueprint": "edb06327cef81364",
+   "flags": 2
+  },
+  {
+   "path": "Localization/Translations/Powers/Jubilee/TalentLockOn.prototype",
+   "id": "90cd622731c419a6",
+   "guid": "74ffd9a4963b0871",
+   "blueprint": "0e3331e0f8e52b95",
+   "flags": 2
+  },
+  {
+   "path": "Powers/Player/Jubilee/Talents/LockOn.prototype",
+   "id": "4f759fd7ae89127b",
+   "guid": "a5b2667465c2b701",
+   "blueprint": "edb06327cef81364",
+   "flags": 2
+  },
+  {
+   "path": "Localization/Translations/Powers/Jubilee/TalentLightItUp.prototype",
+   "id": "d8e2c5dc81f71afa",
+   "guid": "dfc1b3b9a63c88ed",
+   "blueprint": "0e3331e0f8e52b95",
+   "flags": 2
+  },
+  {
+   "path": "Powers/Player/Jubilee/Talents/LightItUp.prototype",
+   "id": "098e129de93b13cf",
+   "guid": "9adffc99ca460ac2",
+   "blueprint": "edb06327cef81364",
+   "flags": 2
+  },
+  {
+   "path": "Localization/Translations/Powers/Jubilee/TalentHotStuff.prototype",
+   "id": "87a3499c67b31a93",
+   "guid": "6e2f5cff76940dbb",
+   "blueprint": "0e3331e0f8e52b95",
+   "flags": 2
+  },
+  {
+   "path": "Powers/Player/Jubilee/Talents/HotStuff.prototype",
+   "id": "5013f938d6221368",
+   "guid": "361014ec1ea418c1",
+   "blueprint": "edb06327cef81364",
+   "flags": 2
+  },
+  {
+   "path": "Localization/Translations/Powers/Jubilee/TalentBiggerBang.prototype",
+   "id": "d751989199d01b28",
+   "guid": "f0dcc30ba28b8768",
+   "blueprint": "0e3331e0f8e52b95",
+   "flags": 2
+  },
+  {
+   "path": "Powers/Player/Jubilee/Talents/BiggerBang.prototype",
+   "id": "d65b8540f9e913fd",
+   "guid": "6565f4a92f7a5c7b",
+   "blueprint": "edb06327cef81364",
+   "flags": 2
+  },
+  {
+   "path": "Localization/Translations/Powers/Jubilee/TalentEvenBiggerOne.prototype",
+   "id": "49e5e626ef801c80",
+   "guid": "b5a209e70c8bb492",
+   "blueprint": "0e3331e0f8e52b95",
+   "flags": 2
+  },
+  {
+   "path": "Powers/Player/Jubilee/Talents/EvenBiggerOne.prototype",
+   "id": "da173c223a271555",
+   "guid": "d250131475cec49a",
+   "blueprint": "edb06327cef81364",
+   "flags": 2
+  },
+  {
+   "path": "Localization/Translations/Powers/Jubilee/TalentMutantResilience.prototype",
+   "id": "cb29de3c4a851ddc",
+   "guid": "4f25e5c63e499b84",
+   "blueprint": "0e3331e0f8e52b95",
+   "flags": 2
+  },
+  {
+   "path": "Powers/Player/Jubilee/Talents/MutantResilience.prototype",
+   "id": "e444c8d67f9c16b1",
+   "guid": "7be04f7d500a27f7",
+   "blueprint": "edb06327cef81364",
+   "flags": 2
+  },
+  {
+   "path": "Localization/Translations/Powers/Jubilee/TalentMallRatReflexes.prototype",
+   "id": "d9631acc2b121d6b",
+   "guid": "b0d4f29bb79591bc",
+   "blueprint": "0e3331e0f8e52b95",
+   "flags": 2
+  },
+  {
+   "path": "Powers/Player/Jubilee/Talents/MallRatReflexes.prototype",
+   "id": "db0977f067541640",
+   "guid": "6b253f63953bb93b",
+   "blueprint": "edb06327cef81364",
+   "flags": 2
+  },
+  {
+   "path": "Localization/Translations/Powers/Jubilee/TalentVampireToughness.prototype",
+   "id": "34b2ac9a4b351df4",
+   "guid": "0f84582a2823640d",
+   "blueprint": "0e3331e0f8e52b95",
+   "flags": 2
+  },
+  {
+   "path": "Powers/Player/Jubilee/Talents/VampireToughness.prototype",
+   "id": "1bdfba70804c16c9",
+   "guid": "8d3d9764c33d8137",
+   "blueprint": "edb06327cef81364",
+   "flags": 2
+  },
+  {
+   "path": "Localization/Translations/Powers/Jubilee/TalentSparkler.prototype",
+   "id": "ca84b53366d01a84",
+   "guid": "43d47a54c0220b6f",
+   "blueprint": "0e3331e0f8e52b95",
+   "flags": 2
+  },
+  {
+   "path": "Powers/Player/Jubilee/Talents/Sparkler.prototype",
+   "id": "1d340597d53f1359",
+   "guid": "f5300ff86615131e",
+   "blueprint": "edb06327cef81364",
+   "flags": 2
+  },
+  {
+   "path": "Localization/Translations/Powers/Jubilee/TalentRollerDerby.prototype",
+   "id": "3458c6f7b8c61bc6",
+   "guid": "f4b5fa52439977d1",
+   "blueprint": "0e3331e0f8e52b95",
+   "flags": 2
+  },
+  {
+   "path": "Powers/Player/Jubilee/Talents/RollerDerby.prototype",
+   "id": "c58d2ea811c3149b",
+   "guid": "f012587602371ea3",
+   "blueprint": "edb06327cef81364",
+   "flags": 2
+  },
+  {
+   "path": "Localization/Translations/Powers/Jubilee/TalentPyrotechnics.prototype",
+   "id": "14ef2d6bd6091c3b",
+   "guid": "c6e2963f779ddb82",
+   "blueprint": "0e3331e0f8e52b95",
+   "flags": 2
+  },
+  {
+   "path": "Powers/Player/Jubilee/Talents/Pyrotechnics.prototype",
+   "id": "efcab4e627db1510",
+   "guid": "4269ea1f59b93e89",
+   "blueprint": "edb06327cef81364",
+   "flags": 2
+  },
+  {
+   "path": "Localization/Translations/Powers/Jubilee/TalentEncore.prototype",
+   "id": "8562b6d1313a199c",
+   "guid": "23f196cff49c724b",
+   "blueprint": "0e3331e0f8e52b95",
+   "flags": 2
+  },
+  {
+   "path": "Powers/Player/Jubilee/Talents/Encore.prototype",
+   "id": "5ada4b21adff1271",
+   "guid": "f31d117e211a6577",
+   "blueprint": "edb06327cef81364",
+   "flags": 2
+  },
+  {
+   "path": "Localization/Translations/Powers/Jubilee/TalentLightShow.prototype",
+   "id": "8dce2c1481ec1af9",
+   "guid": "95c96b3c71997529",
+   "blueprint": "0e3331e0f8e52b95",
+   "flags": 2
+  },
+  {
+   "path": "Powers/Player/Jubilee/Talents/LightShow.prototype",
+   "id": "5ca2fb55e93013ce",
+   "guid": "8c75f3647a3e7cd6",
+   "blueprint": "edb06327cef81364",
+   "flags": 2
+  },
+  {
+   "path": "Localization/Translations/Powers/Jubilee/TalentFireworksFactory.prototype",
+   "id": "68c36b6d4ad01df4",
+   "guid": "587e9a3685cc067e",
+   "blueprint": "0e3331e0f8e52b95",
+   "flags": 2
+  },
+  {
+   "path": "Powers/Player/Jubilee/Talents/FireworksFactory.prototype",
+   "id": "47ae7d877fe716c9",
+   "guid": "3b9df026655d16b2",
+   "blueprint": "edb06327cef81364",
+   "flags": 2
+  },
+  {
+   "path": "Powers/Player/Jubilee/SparklerField.prototype",
+   "id": "2aea9e9c9ece1234",
+   "guid": "bcbb3bc431c87164",
+   "blueprint": "d0fc4c6241811024",
+   "flags": 2
+  },
+  {
+   "path": "Powers/Player/Jubilee/MegaGlob.prototype",
+   "id": "ebec71464677100a",
+   "guid": "08e495e4e36c0d1c",
+   "blueprint": "9e9b0a69e5df13eb",
+   "flags": 2
+  },
+  {
+   "path": "Powers/Player/Jubilee/BigBang.prototype",
+   "id": "42e21fbe35d20f96",
+   "guid": "d390f12c3b5bef30",
+   "blueprint": "44c6a3ad4c4515e4",
+   "flags": 2
+  },
+  {
+   "path": "Powers/Player/Jubilee/Traits/OffenseTrait.prototype",
+   "id": "dc8f5fc711b2149b",
+   "guid": "e665de586da2d221",
+   "blueprint": "2c237dcca5871b89",
+   "flags": 2
+  },
+  {
+   "path": "Powers/Player/Jubilee/Traits/DefenseTrait.prototype",
+   "id": "27aa566410ab148f",
+   "guid": "813ac05951246241",
+   "blueprint": "ce75520bbd3d1bbc",
+   "flags": 2
+  },
+  {
+   "path": "Powers/Player/Jubilee/RollerbladeTravel.prototype",
+   "id": "2b1f6787eba413e2",
+   "guid": "b12fb7ef9d5eee63",
+   "blueprint": "a91984f3aae312a2",
+   "flags": 2
+  },
+  {
+   "path": "Entity/Items/Armor/Blueprints/Jubilee/ArmorJubileeGloves.defaults",
+   "id": "65caf58172741a93",
+   "guid": "6a7c69fa11b58d6a",
+   "blueprint": "65caf58172741a93",
+   "flags": 3
+  },
+  {
+   "path": "Entity/Items/Armor/Prototypes/Jubilee/Gloves/Gloves01.prototype",
+   "id": "79ea08f521cc18f3",
+   "guid": "4ac2a972467cd90c",
+   "blueprint": "65caf58172741a93",
+   "flags": 2
+  },
+  {
+   "path": "Entity/Items/Armor/Prototypes/Jubilee/Gloves/Gloves02.prototype",
+   "id": "e0086ef421d718f4",
+   "guid": "bc9c169942162791",
+   "blueprint": "65caf58172741a93",
+   "flags": 2
+  },
+  {
+   "path": "Entity/Items/Armor/Prototypes/Jubilee/Gloves/Gloves03.prototype",
+   "id": "2186b13421e218f5",
+   "guid": "ae8e6ac1ae18c4aa",
+   "blueprint": "65caf58172741a93",
+   "flags": 2
+  },
+  {
+   "path": "Entity/Items/Armor/Prototypes/Jubilee/Gloves/Gloves04.prototype",
+   "id": "08bda4b721ed18f6",
+   "guid": "f18ebfd7c496e029",
+   "blueprint": "65caf58172741a93",
+   "flags": 2
+  },
+  {
+   "path": "Entity/Items/Armor/Prototypes/Jubilee/Gloves/Gloves05.prototype",
+   "id": "c9337b7721f818f7",
+   "guid": "9018abdc27259af3",
+   "blueprint": "65caf58172741a93",
+   "flags": 2
+  },
+  {
+   "path": "Entity/Items/Armor/Prototypes/Jubilee/Gloves/Gloves06.prototype",
+   "id": "50d11d76220318f8",
+   "guid": "4587162f1a625b7a",
+   "blueprint": "65caf58172741a93",
+   "flags": 2
+  },
+  {
+   "path": "Entity/Items/Armor/Prototypes/Jubilee/Gloves/Gloves07.prototype",
+   "id": "915fc2b6220e18f9",
+   "guid": "94faf8dc507415a0",
+   "blueprint": "65caf58172741a93",
+   "flags": 2
+  },
+  {
+   "path": "Entity/Items/Armor/Prototypes/Jubilee/Gloves/Gloves08.prototype",
+   "id": "02a73670221918fa",
+   "guid": "4152726c2a6b5a80",
+   "blueprint": "65caf58172741a93",
+   "flags": 2
+  },
+  {
+   "path": "Entity/Items/Armor/Prototypes/Jubilee/Gloves/Gloves09.prototype",
+   "id": "c329e9b0222418fb",
+   "guid": "b7d81db8b663276b",
+   "blueprint": "65caf58172741a93",
+   "flags": 2
+  },
+  {
+   "path": "Entity/Items/Armor/Prototypes/Jubilee/Gloves/Gloves10.prototype",
+   "id": "23c19b5a21cd18f3",
+   "guid": "b369ee0b93740987",
+   "blueprint": "65caf58172741a93",
+   "flags": 2
+  },
+  {
+   "path": "Entity/Items/Armor/Prototypes/Jubilee/Gloves/Gloves11.prototype",
+   "id": "e24f449a21d818f4",
+   "guid": "d1c18914462e9394",
+   "blueprint": "65caf58172741a93",
+   "flags": 2
+  },
+  {
+   "path": "Entity/Items/Armor/Prototypes/Jubilee/Gloves/Gloves12.prototype",
+   "id": "7bad229b21e318f5",
+   "guid": "b1807d948f11c310",
+   "blueprint": "65caf58172741a93",
+   "flags": 2
+  },
+  {
+   "path": "Entity/Items/Armor/Prototypes/Jubilee/Gloves/Gloves13.prototype",
+   "id": "ba23fd5b21ee18f6",
+   "guid": "9ca0dcd92b9a9df7",
+   "blueprint": "65caf58172741a93",
+   "flags": 2
+  },
+  {
+   "path": "Entity/Items/Armor/Prototypes/Jubilee/Gloves/Gloves14.prototype",
+   "id": "9318e8d821f918f7",
+   "guid": "01b037c2bd14ff7f",
+   "blueprint": "65caf58172741a93",
+   "flags": 2
+  },
+  {
+   "path": "Entity/Items/Armor/Prototypes/Jubilee/Gloves/Gloves15.prototype",
+   "id": "52963718220418f8",
+   "guid": "3fc69c5db14a2978",
+   "blueprint": "65caf58172741a93",
+   "flags": 2
+  },
+  {
+   "path": "Entity/Inventory/AvatarInventories/Individual/Jubilee/Gloves.prototype",
+   "id": "7deefe2df3891c74",
+   "guid": "2ea778ed4fbd39d8",
+   "blueprint": "bc31d04912770ee9",
+   "flags": 2
+  },
+  {
+   "path": "Entity/Items/Armor/Blueprints/Jubilee/ArmorJubileeTop.defaults",
+   "id": "3962344e240b1956",
+   "guid": "7f6dcb454f0e9b12",
+   "blueprint": "3962344e240b1956",
+   "flags": 3
+  },
+  {
+   "path": "Entity/Items/Armor/Prototypes/Jubilee/Top/Top01.prototype",
+   "id": "5779f5cb90091679",
+   "guid": "3e2c446237aafd1b",
+   "blueprint": "3962344e240b1956",
+   "flags": 2
+  },
+  {
+   "path": "Entity/Items/Armor/Prototypes/Jubilee/Top/Top02.prototype",
+   "id": "ce9b93ca9014167a",
+   "guid": "70d88d24db37346d",
+   "blueprint": "3962344e240b1956",
+   "flags": 2
+  },
+  {
+   "path": "Entity/Items/Armor/Prototypes/Jubilee/Top/Top03.prototype",
+   "id": "0f154c0a901f167b",
+   "guid": "d088eb8de629fd30",
+   "blueprint": "3962344e240b1956",
+   "flags": 2
+  },
+  {
+   "path": "Entity/Items/Armor/Prototypes/Jubilee/Top/Top04.prototype",
+   "id": "262e5989902a167c",
+   "guid": "3339029f8a049a2d",
+   "blueprint": "3962344e240b1956",
+   "flags": 2
+  },
+  {
+   "path": "Entity/Items/Armor/Prototypes/Jubilee/Top/Top05.prototype",
+   "id": "e7a086499035167d",
+   "guid": "e7be1f9a8a09faab",
+   "blueprint": "3962344e240b1956",
+   "flags": 2
+  },
+  {
+   "path": "Entity/Items/Armor/Prototypes/Jubilee/Top/Top06.prototype",
+   "id": "7e42e0489040167e",
+   "guid": "89a967d13fe42da1",
+   "blueprint": "3962344e240b1956",
+   "flags": 2
+  },
+  {
+   "path": "Entity/Items/Armor/Prototypes/Jubilee/Top/Top07.prototype",
+   "id": "bfcc3f88904b167f",
+   "guid": "eb9977c50a821b14",
+   "blueprint": "3962344e240b1956",
+   "flags": 2
+  },
+  {
+   "path": "Entity/Items/Armor/Prototypes/Jubilee/Top/Top08.prototype",
+   "id": "2c34cb4e90561680",
+   "guid": "f8246a59b939c162",
+   "blueprint": "3962344e240b1956",
+   "flags": 2
+  },
+  {
+   "path": "Entity/Items/Armor/Prototypes/Jubilee/Top/Top09.prototype",
+   "id": "edba148e90611681",
+   "guid": "037d002da5d1d3d6",
+   "blueprint": "3962344e240b1956",
+   "flags": 2
+  },
+  {
+   "path": "Entity/Items/Armor/Prototypes/Jubilee/Top/Top10.prototype",
+   "id": "0d526664900a1679",
+   "guid": "a1293e36ea85d972",
+   "blueprint": "3962344e240b1956",
+   "flags": 2
+  },
+  {
+   "path": "Entity/Items/Armor/Prototypes/Jubilee/Top/Top11.prototype",
+   "id": "ccdcb9a49015167a",
+   "guid": "b8883178af1ac18a",
+   "blueprint": "3962344e240b1956",
+   "flags": 2
+  },
+  {
+   "path": "Entity/Items/Armor/Prototypes/Jubilee/Top/Top12.prototype",
+   "id": "553edfa59020167b",
+   "guid": "ab480b825e6b31b7",
+   "blueprint": "3962344e240b1956",
+   "flags": 2
+  },
+  {
+   "path": "Entity/Items/Armor/Prototypes/Jubilee/Top/Top13.prototype",
+   "id": "94b00065902b167c",
+   "guid": "12e2e11e275401d6",
+   "blueprint": "3962344e240b1956",
+   "flags": 2
+  },
+  {
+   "path": "Entity/Items/Armor/Prototypes/Jubilee/Top/Top14.prototype",
+   "id": "bd8b15e69036167d",
+   "guid": "12afa1adc2b79eef",
+   "blueprint": "3962344e240b1956",
+   "flags": 2
+  },
+  {
+   "path": "Entity/Items/Armor/Prototypes/Jubilee/Top/Top15.prototype",
+   "id": "7c05ca269041167e",
+   "guid": "b1fcfd2dd2fd1d14",
+   "blueprint": "3962344e240b1956",
+   "flags": 2
+  },
+  {
+   "path": "Entity/Inventory/AvatarInventories/Individual/Jubilee/Top.prototype",
+   "id": "d0fd35959fe01b37",
+   "guid": "be4911ffde63ede9",
+   "blueprint": "bc31d04912770ee9",
+   "flags": 2
+  },
+  {
+   "path": "Entity/Items/Armor/Blueprints/Jubilee/ArmorJubileeTrenchCoat.defaults",
+   "id": "6c2deda2e07e1c2e",
+   "guid": "b5b7a6d0b9b87868",
+   "blueprint": "6c2deda2e07e1c2e",
+   "flags": 3
+  },
+  {
+   "path": "Entity/Items/Armor/Prototypes/Jubilee/TrenchCoat/TrenchCoat01.prototype",
+   "id": "a88b38f4f9ed1c29",
+   "guid": "66b263a520e5ba37",
+   "blueprint": "6c2deda2e07e1c2e",
+   "flags": 2
+  },
+  {
+   "path": "Entity/Items/Armor/Prototypes/Jubilee/TrenchCoat/TrenchCoat02.prototype",
+   "id": "31695ef5f9f81c2a",
+   "guid": "2a46b917ee4cb238",
+   "blueprint": "6c2deda2e07e1c2e",
+   "flags": 2
+  },
+  {
+   "path": "Entity/Items/Armor/Prototypes/Jubilee/TrenchCoat/TrenchCoat03.prototype",
+   "id": "f0e78135fa031c2b",
+   "guid": "2df12f68dbfbc467",
+   "blueprint": "6c2deda2e07e1c2e",
+   "flags": 2
+  },
+  {
+   "path": "Entity/Items/Armor/Prototypes/Jubilee/TrenchCoat/TrenchCoat04.prototype",
+   "id": "d9dc94b6fa0e1c2c",
+   "guid": "cd247fe81ccb30bf",
+   "blueprint": "6c2deda2e07e1c2e",
+   "flags": 2
+  },
+  {
+   "path": "Entity/Items/Armor/Prototypes/Jubilee/TrenchCoat/TrenchCoat05.prototype",
+   "id": "18524b76fa191c2d",
+   "guid": "d44be7c704dfad35",
+   "blueprint": "6c2deda2e07e1c2e",
+   "flags": 2
+  },
+  {
+   "path": "Entity/Items/Armor/Prototypes/Jubilee/TrenchCoat/TrenchCoat06.prototype",
+   "id": "81b02d77fa241c2e",
+   "guid": "8aca7fef5332ddb9",
+   "blueprint": "6c2deda2e07e1c2e",
+   "flags": 2
+  },
+  {
+   "path": "Entity/Items/Armor/Prototypes/Jubilee/TrenchCoat/TrenchCoat07.prototype",
+   "id": "403ef2b7fa2f1c2f",
+   "guid": "f32e2f9dc235d690",
+   "blueprint": "6c2deda2e07e1c2e",
+   "flags": 2
+  },
+  {
+   "path": "Entity/Items/Armor/Prototypes/Jubilee/TrenchCoat/TrenchCoat08.prototype",
+   "id": "d3c60671fa3a1c30",
+   "guid": "60e35022e3685c8c",
+   "blueprint": "6c2deda2e07e1c2e",
+   "flags": 2
+  },
+  {
+   "path": "Entity/Items/Armor/Prototypes/Jubilee/TrenchCoat/TrenchCoat09.prototype",
+   "id": "1248d9b1fa451c31",
+   "guid": "127258e3a8969898",
+   "blueprint": "6c2deda2e07e1c2e",
+   "flags": 2
+  },
+  {
+   "path": "Entity/Items/Armor/Prototypes/Jubilee/TrenchCoat/TrenchCoat10.prototype",
+   "id": "f2a0ab5bf9ee1c29",
+   "guid": "18f47376dc443903",
+   "blueprint": "6c2deda2e07e1c2e",
+   "flags": 2
+  },
+  {
+   "path": "Entity/Items/Armor/Prototypes/Jubilee/TrenchCoat/TrenchCoat11.prototype",
+   "id": "332e749bf9f91c2a",
+   "guid": "190bc6d7e0f6f133",
+   "blueprint": "6c2deda2e07e1c2e",
+   "flags": 2
+  },
+  {
+   "path": "Entity/Items/Armor/Prototypes/Jubilee/TrenchCoat/TrenchCoat12.prototype",
+   "id": "aacc129afa041c2b",
+   "guid": "7c16f49fe3e8f950",
+   "blueprint": "6c2deda2e07e1c2e",
+   "flags": 2
+  },
+  {
+   "path": "Entity/Items/Armor/Prototypes/Jubilee/TrenchCoat/TrenchCoat13.prototype",
+   "id": "6b42cd5afa0f1c2c",
+   "guid": "508cc935332dff2f",
+   "blueprint": "6c2deda2e07e1c2e",
+   "flags": 2
+  },
+  {
+   "path": "Entity/Items/Armor/Prototypes/Jubilee/TrenchCoat/TrenchCoat14.prototype",
+   "id": "4279d8d9fa1a1c2d",
+   "guid": "2ee0dc5e11bac5dc",
+   "blueprint": "6c2deda2e07e1c2e",
+   "flags": 2
+  },
+  {
+   "path": "Entity/Items/Armor/Prototypes/Jubilee/TrenchCoat/TrenchCoat15.prototype",
+   "id": "83f70719fa251c2e",
+   "guid": "0d0b111d9d9ef24b",
+   "blueprint": "6c2deda2e07e1c2e",
+   "flags": 2
+  },
+  {
+   "path": "Entity/Inventory/AvatarInventories/Individual/Jubilee/TrenchCoat.prototype",
+   "id": "03bdfb5668a21e0f",
+   "guid": "fed958b34d39afba",
+   "blueprint": "bc31d04912770ee9",
+   "flags": 2
+  },
+  {
+   "path": "Entity/Items/Armor/Blueprints/Jubilee/ArmorJubileeRollerblades.defaults",
+   "id": "8149d7141a2c1cfe",
+   "guid": "0dc01efcbc7da010",
+   "blueprint": "8149d7141a2c1cfe",
+   "flags": 3
+  },
+  {
+   "path": "Entity/Items/Armor/Prototypes/Jubilee/Rollerblades/Rollerblades01.prototype",
+   "id": "b684f37e703c1dc9",
+   "guid": "e6fe5f6acac80ae6",
+   "blueprint": "8149d7141a2c1cfe",
+   "flags": 2
+  },
+  {
+   "path": "Entity/Items/Armor/Prototypes/Jubilee/Rollerblades/Rollerblades02.prototype",
+   "id": "2f66957f70471dca",
+   "guid": "af4c50a1ef2d86e3",
+   "blueprint": "8149d7141a2c1cfe",
+   "flags": 2
+  },
+  {
+   "path": "Entity/Items/Armor/Prototypes/Jubilee/Rollerblades/Rollerblades03.prototype",
+   "id": "eee84abf70521dcb",
+   "guid": "73acd47bd78c0363",
+   "blueprint": "8149d7141a2c1cfe",
+   "flags": 2
+  },
+  {
+   "path": "Entity/Items/Armor/Prototypes/Jubilee/Rollerblades/Rollerblades04.prototype",
+   "id": "c7d35f3c705d1dcc",
+   "guid": "b5d04028a4de5a01",
+   "blueprint": "8149d7141a2c1cfe",
+   "flags": 2
+  },
+  {
+   "path": "Entity/Items/Armor/Prototypes/Jubilee/Rollerblades/Rollerblades05.prototype",
+   "id": "065d80fc70681dcd",
+   "guid": "2c6b0fd64af7af34",
+   "blueprint": "8149d7141a2c1cfe",
+   "flags": 2
+  },
+  {
+   "path": "Entity/Items/Armor/Prototypes/Jubilee/Rollerblades/Rollerblades06.prototype",
+   "id": "9fbfe6fd70731dce",
+   "guid": "de9c4f23589939af",
+   "blueprint": "8149d7141a2c1cfe",
+   "flags": 2
+  },
+  {
+   "path": "Entity/Items/Armor/Prototypes/Jubilee/Rollerblades/Rollerblades07.prototype",
+   "id": "5e31393d707e1dcf",
+   "guid": "72c768d18cfa310b",
+   "blueprint": "8149d7141a2c1cfe",
+   "flags": 2
+  },
+  {
+   "path": "Entity/Items/Armor/Prototypes/Jubilee/Rollerblades/Rollerblades08.prototype",
+   "id": "cdc9cdfb70891dd0",
+   "guid": "d26396f42bb8e527",
+   "blueprint": "8149d7141a2c1cfe",
+   "flags": 2
+  },
+  {
+   "path": "Entity/Items/Armor/Prototypes/Jubilee/Rollerblades/Rollerblades09.prototype",
+   "id": "0c47123b70941dd1",
+   "guid": "cfb841092c47b1b6",
+   "blueprint": "8149d7141a2c1cfe",
+   "flags": 2
+  },
+  {
+   "path": "Entity/Items/Armor/Prototypes/Jubilee/Rollerblades/Rollerblades10.prototype",
+   "id": "ecaf60d1703d1dc9",
+   "guid": "d52a4e5f724d6d17",
+   "blueprint": "8149d7141a2c1cfe",
+   "flags": 2
+  },
+  {
+   "path": "Entity/Items/Armor/Prototypes/Jubilee/Rollerblades/Rollerblades11.prototype",
+   "id": "2d21bf1170481dca",
+   "guid": "b4b87d81f24f7925",
+   "blueprint": "8149d7141a2c1cfe",
+   "flags": 2
+  },
+  {
+   "path": "Entity/Items/Armor/Prototypes/Jubilee/Rollerblades/Rollerblades12.prototype",
+   "id": "b4c3d91070531dcb",
+   "guid": "6479c73ddeb80d01",
+   "blueprint": "8149d7141a2c1cfe",
+   "flags": 2
+  },
+  {
+   "path": "Entity/Items/Armor/Prototypes/Jubilee/Rollerblades/Rollerblades13.prototype",
+   "id": "754d06d0705e1dcc",
+   "guid": "bbd586f2e55608ea",
+   "blueprint": "8149d7141a2c1cfe",
+   "flags": 2
+  },
+  {
+   "path": "Entity/Items/Armor/Prototypes/Jubilee/Rollerblades/Rollerblades14.prototype",
+   "id": "5c76135370691dcd",
+   "guid": "2e3edd134fba953a",
+   "blueprint": "8149d7141a2c1cfe",
+   "flags": 2
+  },
+  {
+   "path": "Entity/Items/Armor/Prototypes/Jubilee/Rollerblades/Rollerblades15.prototype",
+   "id": "9df8cc9370741dce",
+   "guid": "73edf11ee3ecb71c",
+   "blueprint": "8149d7141a2c1cfe",
+   "flags": 2
+  },
+  {
+   "path": "Entity/Inventory/AvatarInventories/Individual/Jubilee/Rollerblades.prototype",
+   "id": "4c6dd5b6a5c11edf",
+   "guid": "7b7a1f4e9fd12f2e",
+   "blueprint": "bc31d04912770ee9",
+   "flags": 2
+  },
+  {
+   "path": "Entity/Items/Armor/Blueprints/Jubilee/ArmorJubileeShades.defaults",
+   "id": "c260a4ea714a1a7b",
+   "guid": "27e9eaa56b5145ff",
+   "blueprint": "c260a4ea714a1a7b",
+   "flags": 3
+  },
+  {
+   "path": "Entity/Items/Armor/Prototypes/Jubilee/Shades/Shades01.prototype",
+   "id": "43f73d061e7018c3",
+   "guid": "1387462c4eadf40e",
+   "blueprint": "c260a4ea714a1a7b",
+   "flags": 2
+  },
+  {
+   "path": "Entity/Items/Armor/Prototypes/Jubilee/Shades/Shades02.prototype",
+   "id": "da155b071e7b18c4",
+   "guid": "2f2666e02418d1e7",
+   "blueprint": "c260a4ea714a1a7b",
+   "flags": 2
+  },
+  {
+   "path": "Entity/Items/Armor/Prototypes/Jubilee/Shades/Shades03.prototype",
+   "id": "1b9b84c71e8618c5",
+   "guid": "6283b7bb04596d24",
+   "blueprint": "c260a4ea714a1a7b",
+   "flags": 2
+  },
+  {
+   "path": "Entity/Items/Armor/Prototypes/Jubilee/Shades/Shades04.prototype",
+   "id": "32a091441e9118c6",
+   "guid": "b8f5d468b3e9d588",
+   "blueprint": "c260a4ea714a1a7b",
+   "flags": 2
+  },
+  {
+   "path": "Entity/Items/Armor/Prototypes/Jubilee/Shades/Shades05.prototype",
+   "id": "f32e4e841e9c18c7",
+   "guid": "c8e4d38b0e448932",
+   "blueprint": "c260a4ea714a1a7b",
+   "flags": 2
+  },
+  {
+   "path": "Entity/Items/Armor/Prototypes/Jubilee/Shades/Shades06.prototype",
+   "id": "6acc28851ea718c8",
+   "guid": "8ae261c3e1e78a84",
+   "blueprint": "c260a4ea714a1a7b",
+   "flags": 2
+  },
+  {
+   "path": "Entity/Items/Armor/Prototypes/Jubilee/Shades/Shades07.prototype",
+   "id": "ab42f7451eb218c9",
+   "guid": "9e61d77bf65b6eaf",
+   "blueprint": "c260a4ea714a1a7b",
+   "flags": 2
+  },
+  {
+   "path": "Entity/Items/Armor/Prototypes/Jubilee/Shades/Shades08.prototype",
+   "id": "38ba03831ebd18ca",
+   "guid": "d7de87e0b60825bd",
+   "blueprint": "c260a4ea714a1a7b",
+   "flags": 2
+  },
+  {
+   "path": "Entity/Items/Armor/Prototypes/Jubilee/Shades/Shades09.prototype",
+   "id": "f934dc431ec818cb",
+   "guid": "88e11ee120ff91d2",
+   "blueprint": "c260a4ea714a1a7b",
+   "flags": 2
+  },
+  {
+   "path": "Entity/Items/Armor/Prototypes/Jubilee/Shades/Shades10.prototype",
+   "id": "19dcaea91e7118c3",
+   "guid": "b1d000bf48f0eae0",
+   "blueprint": "c260a4ea714a1a7b",
+   "flags": 2
+  },
+  {
+   "path": "Entity/Items/Armor/Prototypes/Jubilee/Shades/Shades11.prototype",
+   "id": "d85271691e7c18c4",
+   "guid": "1cb640cd1ba18d56",
+   "blueprint": "c260a4ea714a1a7b",
+   "flags": 2
+  },
+  {
+   "path": "Entity/Items/Armor/Prototypes/Jubilee/Shades/Shades12.prototype",
+   "id": "41b017681e8718c5",
+   "guid": "54638ccf620c934b",
+   "blueprint": "c260a4ea714a1a7b",
+   "flags": 2
+  },
+  {
+   "path": "Entity/Items/Armor/Prototypes/Jubilee/Shades/Shades13.prototype",
+   "id": "803ec8a81e9218c6",
+   "guid": "685e496e5630a670",
+   "blueprint": "c260a4ea714a1a7b",
+   "flags": 2
+  },
+  {
+   "path": "Entity/Items/Armor/Prototypes/Jubilee/Shades/Shades14.prototype",
+   "id": "a905dd2b1e9d18c7",
+   "guid": "95d0a9e7aeccf3a7",
+   "blueprint": "c260a4ea714a1a7b",
+   "flags": 2
+  },
+  {
+   "path": "Entity/Items/Armor/Prototypes/Jubilee/Shades/Shades15.prototype",
+   "id": "688b02eb1ea818c8",
+   "guid": "d0fd8b9387b2a62f",
+   "blueprint": "c260a4ea714a1a7b",
+   "flags": 2
+  },
+  {
+   "path": "Entity/Inventory/AvatarInventories/Individual/Jubilee/Shades.prototype",
+   "id": "da44af46f25f1c5c",
+   "guid": "fb88bea812c300a2",
+   "blueprint": "bc31d04912770ee9",
+   "flags": 2
+  },
+  {
+   "path": "Powers/TeamUps/Jubilee/SummonReveal.prototype",
+   "id": "ae64d068a25e125c",
+   "guid": "3556a67de7e2a7ee",
+   "blueprint": "5c941affe5410d85",
+   "flags": 2
+  }
+ ],
+ "blueprints": [
+  {
+   "path": "Entity/Items/Armor/Blueprints/Jubilee/ArmorJubileeGloves.blueprint",
+   "id": "65caf58172741a93",
+   "guid": "0702beb34de4bd06",
+   "flags": 1
+  },
+  {
+   "path": "Entity/Items/Armor/Blueprints/Jubilee/ArmorJubileeTop.blueprint",
+   "id": "3962344e240b1956",
+   "guid": "063d015a0d140072",
+   "flags": 1
+  },
+  {
+   "path": "Entity/Items/Armor/Blueprints/Jubilee/ArmorJubileeTrenchCoat.blueprint",
+   "id": "6c2deda2e07e1c2e",
+   "guid": "1856e5d2bc7e9697",
+   "flags": 1
+  },
+  {
+   "path": "Entity/Items/Armor/Blueprints/Jubilee/ArmorJubileeRollerblades.blueprint",
+   "id": "8149d7141a2c1cfe",
+   "guid": "890c04f99571975d",
+   "flags": 1
+  },
+  {
+   "path": "Entity/Items/Armor/Blueprints/Jubilee/ArmorJubileeShades.blueprint",
+   "id": "c260a4ea714a1a7b",
+   "guid": "3380b43bb3dd3ca1",
+   "flags": 1
+  }
+ ]
+}

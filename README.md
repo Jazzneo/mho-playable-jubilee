@@ -81,3 +81,9 @@ To build the release zip, zip the *contents* of `module/` so that `module.json` 
 
 Made by Jazneo, with help from Claude. Marvel Heroes is © Marvel and Gazillion Entertainment. This is a fan
 project for private servers and isn't affiliated with Marvel, Disney or Gazillion.
+
+## Making a new release
+
+1. Change `module/`, raise `"version"` in `module/module.json`, and add a section to `CHANGELOG.md`.
+2. Commit, then push a tag that matches the version, for example `git tag v0.6.4 && git push origin v0.6.4`.
+3. GitHub Actions builds `Playable_Jubilee_<version>.zip` and publishes it on the Releases page.

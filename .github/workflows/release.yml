@@ -1,0 +1,31 @@
+name: Release
+
+# Push a tag like v0.6.4 (matching "version" in module/module.json) to publish a release
+# with the module zip that MH Launcher installs.
+on:
+  push:
+    tags: ["v*"]
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build the module zip
+        run: |
+          ver=$(python3 -c "import json;print(json.load(open('module/module.json'))['version'])")
+          if [ "v$ver" != "$GITHUB_REF_NAME" ]; then
+            echo "Tag $GITHUB_REF_NAME doesn't match module.json version $ver"; exit 1
+          fi
+          (cd module && zip -qr -X "../Playable_Jubilee_$ver.zip" .)
+          echo "VER=$ver" >> "$GITHUB_ENV"
+          # release notes: this version's section of the changelog
+          awk -v v="## $ver" '$0==v{f=1;next} /^## /{f=0} f' CHANGELOG.md > notes.md
+          printf '\n**Install:** download `Playable_Jubilee_%s.zip` below. In MH Launcher open **Modules → Install module…**, pick the zip and press **Apply changes**. Needs MH Launcher 1.7.0 or newer.\n' "$ver" >> notes.md
+      - name: Publish the release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release create "$GITHUB_REF_NAME" "Playable_Jubilee_$VER.zip" --title "Playable Jubilee $VER" --notes-file notes.md
